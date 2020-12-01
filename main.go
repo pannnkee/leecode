@@ -95,6 +95,46 @@ func missingNumber(nums []int) int {
 }
 
 
+// 链表
+//19. 删除链表的倒数第N个节点
+//给定一个链表: 1->2->3->4->5, 和 n = 2.
+//当删除了倒数第二个节点后，链表变为 1->2->3->5.
+
+// Definition for singly-linked list.
+
+type ListNode struct {
+  Val int
+  Next *ListNode
+}
+func removeNthFromEnd(head *ListNode, n int) *ListNode {
+	return nil
+}
+
+//21. 合并两个有序链表
+//输入：1->2->4, 1->3->4
+//输出：1->1->2->3->4->4
+func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+	return nil
+}
+
+//141. 环形链表
+//给定一个链表，判断链表中是否有环。
+//
+//如果链表中有某个节点，可以通过连续跟踪 next 指针再次到达，则链表中存在环。 为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。注意：pos 不作为参数进行传递，仅仅是为了标识链表的实际情况。
+//
+//如果链表中存在环，则返回 true 。 否则，返回 false 。
+func hasCycle(head *ListNode) bool {
+	return false
+}
+
+//2. 两数相加
+//输入：(2 -> 4 -> 3) + (5 -> 6 -> 4)
+//输出：7 -> 0 -> 8
+//原因：342 + 465 = 807
+func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+	return nil
+}
+
 
 func main() {
 

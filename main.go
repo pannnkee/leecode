@@ -135,6 +135,34 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	return nil
 }
 
+// 动态规划
+
+//70. 爬楼梯
+//输入： 2
+//输出： 2
+//解释： 有两种方法可以爬到楼顶。
+//1.  1 阶 + 1 阶
+//2.  2 阶
+func climbStairs(n int) int {
+	return 0
+}
+
+//53. 最大子序和
+//输入: [-2,1,-3,4,-1,2,1,-5,4]
+//输出: 6
+//解释: 连续子数组 [4,-1,2,1] 的和最大，为 6。
+func maxSubArray(nums []int) int {
+	return 0
+}
+
+//300. 最长上升子序列
+//输入: [10,9,2,5,3,7,101,18]
+//输出: 4
+//解释: 最长的上升子序列是 [2,3,7,101]，它的长度是 4。
+func lengthOfLIS(nums []int) int {
+	return 0
+}
+
 
 func main() {
 
